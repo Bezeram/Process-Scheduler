@@ -6,12 +6,16 @@ import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
+import app.page.HomePage;
+import app.page.LikedContentPage;
+import app.page.Page;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,20 +25,24 @@ import java.util.List;
  */
 public class User {
     @Getter
-    private String username;
+    protected String username;
     @Getter
-    private int age;
+    protected int age;
     @Getter
-    private String city;
+    protected String city;
     @Getter
-    private ArrayList<Playlist> playlists;
+    protected ArrayList<Playlist> playlists;
     @Getter
-    private ArrayList<Song> likedSongs;
+    protected ArrayList<Song> likedSongs;
     @Getter
-    private ArrayList<Playlist> followedPlaylists;
-    private final Player player;
-    private final SearchBar searchBar;
-    private boolean lastSearched;
+    protected ArrayList<Playlist> followedPlaylists;
+    @Getter
+    @Setter
+    protected Page currentPage;
+    @Getter
+    protected final Player player;
+    protected final SearchBar searchBar;
+    protected boolean lastSearched;
 
     /**
      * Instantiates a new User.
@@ -53,6 +61,7 @@ public class User {
         player = new Player();
         searchBar = new SearchBar(username);
         lastSearched = false;
+        currentPage = new HomePage(this);
     }
 
     /**

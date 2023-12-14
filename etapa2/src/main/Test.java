@@ -29,7 +29,7 @@ public final class Test {
             Arrays.sort(inputDir);
 
             Scanner scanner = new Scanner(System.in);
-            String fileName = scanner.next();
+            String fileName = "input/" + scanner.next();
             for (File file : inputDir) {
                 if (file.getName().equalsIgnoreCase(fileName)) {
                     Main.action(file.getAbsolutePath(), CheckerConstants.OUT_FILE);

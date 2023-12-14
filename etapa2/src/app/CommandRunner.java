@@ -1,12 +1,19 @@
 package app;
 
 import app.audio.Collections.PlaylistOutput;
+import app.page.ArtistPage;
+import app.page.HomePage;
+import app.page.LikedContentPage;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
+import app.user.Artist;
+import app.user.Host;
 import app.user.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import fileio.input.CommandInput;
+import org.checkerframework.checker.units.qual.A;
+import picocli.CommandLine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +28,58 @@ public final class CommandRunner {
     private static ObjectMapper objectMapper = new ObjectMapper();
 
     private CommandRunner() {
+    }
+
+    /**
+     * Changes the current page of the user to the one provided
+     *
+     * @param commandInput
+     * @return
+     */
+    public static ObjectNode changePage(final CommandInput commandInput) {
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+
+        String page = commandInput.getNextPage();
+        User user = Admin.getUser(commandInput.getUsername());
+        if (user != null) {
+            switch (page) {
+                case "Home" -> user.setCurrentPage(new HomePage(user));
+                case "LikedContent" -> user.setCurrentPage(new LikedContentPage(user));
+                default -> {
+                    objectNode.put("message", user.getUsername() + " is trying to access a non-existent page.");
+                    return objectNode;
+                }
+            }
+        }
+
+        objectNode.put("message", user.getUsername() + " accessed " + page + "successfully.");
+        return objectNode;
+    }
+
+    /**
+     * Prints the user's current page
+     *
+     * @param commandInput
+     * @return
+     */
+    public static ObjectNode printCurrentPage(final CommandInput commandInput) {
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+
+        String username = commandInput.getUsername();
+        User user = Admin.getUser(username);
+        if (user != null) {
+            objectNode.put("message", user.getCurrentPage().print());
+            return objectNode;
+        }
+
+        objectNode.put("message", "Invalid username");
+        return objectNode;
     }
 
     /**

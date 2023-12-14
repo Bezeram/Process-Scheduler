@@ -11,9 +11,12 @@ public final class CommandInput {
     private Integer playlistId; // pentru add/remove song
     private String playlistName; // pentru create playlist
     private Integer seed; // pentru shuffle
+    private String nextPage; // pentru changePage
 
     public CommandInput() {
     }
+
+    public String getNextPage() { return nextPage; }
 
     public String getType() {
         return type;

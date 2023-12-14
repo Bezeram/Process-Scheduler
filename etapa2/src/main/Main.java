@@ -110,6 +110,8 @@ public final class Main {
                 case "getPreferredGenre" -> outputs.add(CommandRunner.getPreferredGenre(command));
                 case "getTop5Songs" -> outputs.add(CommandRunner.getTop5Songs(command));
                 case "getTop5Playlists" -> outputs.add(CommandRunner.getTop5Playlists(command));
+                case "changePage" -> outputs.add(CommandRunner.changePage(command));
+                case "printCurrentPage" -> outputs.add(CommandRunner.changePage(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }
