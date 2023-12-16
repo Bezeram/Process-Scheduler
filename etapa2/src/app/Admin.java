@@ -15,7 +15,6 @@ import fileio.input.UserInput;
 import lombok.Getter;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -55,12 +54,14 @@ public final class Admin {
         users.add(user);
     }
 
+
+
     /**
      * Deletes user and all of its data. Assumes it exists
      *
      * @param inputUsername the user's name
      */
-    public static void deleteUser(String inputUsername) {
+    public static void deleteUser(final String inputUsername) {
         User user = getUser(inputUsername);
 
         if (user instanceof Artist artist) {
@@ -104,28 +105,77 @@ public final class Admin {
                 else
                     i++;
             }
+        }
 
-            // For every user, delete every mention of an invalid followed playlist
-            for (User iterUser : getUsers()) {
-                ArrayList<Playlist> followedPlaylists = iterUser.getFollowedPlaylists();
-                for (int i = 0; i < followedPlaylists.size(); i++) {
-                    Playlist playlist = followedPlaylists.get(i);
-                    if (playlist == null || !playlist.getOwner().equals(host.getName())) {
-                        i++;
-                        continue;
-                    }
-
-                    followedPlaylists.remove(i);
+        // For every user, delete every mention of an invalid followed playlist
+        for (User iterUser : getUsers()) {
+            ArrayList<Playlist> followedPlaylists = iterUser.getFollowedPlaylists();
+            for (int i = 0; i < followedPlaylists.size(); i++) {
+                Playlist playlist = followedPlaylists.get(i);
+                if (playlist == null || !playlist.getOwner().equals(user.getName())) {
+                    i++;
+                    continue;
                 }
+
+                followedPlaylists.remove(i);
             }
         }
 
+        // For every playlist the user follows, decrease it's follow count
+        for (Playlist playlist : user.getFollowedPlaylists()) {
+            playlist.decreaseFollowers();
+        }
+
+        // Delete user
         for (int i = 0; i < users.size(); i++) {
             if (users.get(i).getName().equals(user.getName())) {
                 users.remove(i);
                 break;
             }
         }
+    }
+
+    /**
+     * Removes an album and all of its associated songs<br>
+     * Album always exists
+     *
+     * @param albumName the album name
+     */
+    public static void removeAlbum(String albumName) {
+        for (int i = 0; i < albums.size(); i++) {
+            if (albums.get(i).getName().equalsIgnoreCase(albumName)) {
+                // Remove associated songs
+                for (Song albumSong : albums.get(i).getSongs()) {
+                    for (int j = 0; j < songs.size(); ) {
+                        String albumSongName = albumSong.getName();
+                        String songName = songs.get(j).getName();
+
+                        if (albumSongName.equalsIgnoreCase(songName)) {
+                            songs.remove(i);
+                        }
+                        else
+                            i++;
+                    }
+                }
+
+                albums.remove(i);
+                return;
+            }
+        }
+    }
+
+    /**
+     * Removes a podcast<br>
+     * Podcast always exists
+     *
+     * @param podcastName the podcast name
+     */
+    public static void removePodcast(String podcastName) {
+        for (int i = 0; i < podcasts.size(); i++)
+            if (podcasts.get(i).getName().equalsIgnoreCase(podcastName)) {
+                podcasts.remove(i);
+                return;
+            }
     }
 
     /**
@@ -141,23 +191,6 @@ public final class Admin {
                     songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
                     songInput.getReleaseYear(), songInput.getArtist());
             songs.add(song);
-
-            boolean exists = false;
-            Album match = null;
-            for (Album album : albums)
-                if (album.matchesName(song.getAlbum())) {
-                    match = album;
-                    exists = true;
-                    break;
-                }
-            // If album does not exist then create it and add the current song
-            // Otherwise add the song to the album
-            if (!exists) {
-                albums.add(new Album(song.getAlbum(), song.getArtist(), new ArrayList<>(Collections.singleton(song))));
-            }
-            else {
-                match.getSongs().add(song);
-            }
         }
     }
 
@@ -202,6 +235,14 @@ public final class Admin {
      */
     public static void addAlbum(Album album) {
         Admin.albums.add(album);
+    }
+
+    /**
+     * Adds a podcast.
+     *
+     */
+    public static void addPodcast(Podcast podcast) {
+        Admin.podcasts.add(podcast);
     }
 
     /**
@@ -283,6 +324,27 @@ public final class Admin {
             count++;
         }
         return topSongs;
+    }
+
+    /**
+     * Gets top 5 albums.
+     *
+     * @return the top 5 albums
+     */
+    public static List<String> getTop5Albums() {
+        List<Album> sortedAlbums = new ArrayList<>(albums);
+        sortedAlbums.sort(Comparator.comparingInt(Album::getLikes).reversed());
+        List<String> topAlbums = new ArrayList<>();
+        int count = 0;
+        for (Album album : sortedAlbums) {
+            if (count >= LIMIT) {
+                break;
+            }
+
+            topAlbums.add(album.getName());
+            count++;
+        }
+        return topAlbums;
     }
 
     /**
