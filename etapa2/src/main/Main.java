@@ -83,7 +83,7 @@ public final class Main {
         Admin.setPodcasts(library.getPodcasts());
 
         /*
-        * test04_etapa2.json
+        * test03_etapa2.json
         *
         * */
 

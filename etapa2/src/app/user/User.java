@@ -130,8 +130,15 @@ public class User extends LibraryEntry {
         }
 
         for (User user : Admin.getUsers()) {
-            if (user instanceof Artist || user instanceof Host) {
+            if (user instanceof Artist artist) {
                 if (user.getName().equalsIgnoreCase(selected.getName())) {
+                    this.setCurrentPage(new ArtistPage(artist));
+                    return "Successfully selected %s's page.".formatted(selected.getName());
+                }
+            }
+            else if (user instanceof Host host) {
+                if (user.getName().equalsIgnoreCase(selected.getName())) {
+                    this.setCurrentPage(new HostPage(host));
                     return "Successfully selected %s's page.".formatted(selected.getName());
                 }
             }
@@ -155,14 +162,7 @@ public class User extends LibraryEntry {
             return "You can't load an empty audio collection!";
         }
 
-        if (searchBar.getLastSearchType().equals("artist")) {
-            Artist artist = (Artist) searchBar.getLastSelected();
-            this.setCurrentPage(new ArtistPage(artist));
-        }
-        else if (searchBar.getLastSearchType().equals("host")) {
-            Host host = (Host) searchBar.getLastSelected();
-            this.setCurrentPage(new HostPage(host));
-        }
+
 
         player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
         searchBar.clearSelection();

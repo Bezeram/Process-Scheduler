@@ -104,7 +104,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 90,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t["
 }, {
   "command" : "playPause",
   "user" : "alice22",

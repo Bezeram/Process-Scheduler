@@ -45,7 +45,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 58,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t["
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -204,7 +204,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 3275,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t["
 }, {
   "command" : "status",
   "user" : "alice22",

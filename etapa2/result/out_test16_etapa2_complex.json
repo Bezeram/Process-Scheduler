@@ -17952,7 +17952,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -17962,7 +17962,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11780,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -18060,7 +18060,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18070,7 +18070,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18168,7 +18168,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -18178,7 +18178,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -18204,7 +18204,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18214,7 +18214,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -18276,7 +18276,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18286,7 +18286,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -18492,7 +18492,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -18502,7 +18502,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11930,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -18528,7 +18528,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -18538,7 +18538,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11940,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -18564,7 +18564,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18574,7 +18574,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11950,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -18672,7 +18672,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18682,7 +18682,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11980,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -18744,7 +18744,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18754,7 +18754,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12000,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -18780,7 +18780,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18790,7 +18790,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12010,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18816,7 +18816,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18826,7 +18826,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -18888,7 +18888,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18898,7 +18898,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -18960,7 +18960,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18970,7 +18970,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -19032,7 +19032,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19042,7 +19042,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12080,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19068,7 +19068,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -19078,7 +19078,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12090,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -19140,7 +19140,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -19150,7 +19150,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12110,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -19212,7 +19212,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19222,7 +19222,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12130,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -19284,7 +19284,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19294,7 +19294,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -19320,7 +19320,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -19330,7 +19330,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -19428,7 +19428,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19438,7 +19438,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12190,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -19500,7 +19500,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19510,7 +19510,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12210,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -19644,7 +19644,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19654,7 +19654,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12250,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -19680,7 +19680,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -19690,7 +19690,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12260,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -19788,7 +19788,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19798,7 +19798,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12290,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -19860,7 +19860,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19870,7 +19870,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12310,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -19968,7 +19968,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19978,7 +19978,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12340,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -20076,7 +20076,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20086,7 +20086,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12370,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -20112,7 +20112,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20122,7 +20122,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12380,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -20220,7 +20220,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20230,7 +20230,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12410,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -20328,7 +20328,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20338,7 +20338,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12440,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -20436,7 +20436,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20446,7 +20446,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12470,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -20508,7 +20508,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20518,7 +20518,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12490,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -20544,7 +20544,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20554,7 +20554,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12500,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -20580,7 +20580,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20590,7 +20590,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12510,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -20724,7 +20724,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20734,7 +20734,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12550,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20796,7 +20796,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20806,7 +20806,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12570,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -20832,7 +20832,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20842,7 +20842,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12580,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -20868,7 +20868,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20878,7 +20878,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12590,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -20904,7 +20904,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20914,7 +20914,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12600,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -20976,7 +20976,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20986,7 +20986,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12620,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21156,7 +21156,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -21166,7 +21166,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12670,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21192,7 +21192,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21202,7 +21202,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12680,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -21228,7 +21228,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21238,7 +21238,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12690,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -21372,7 +21372,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -21382,7 +21382,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12730,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -21516,7 +21516,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21526,7 +21526,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12770,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21552,7 +21552,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -21562,7 +21562,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12780,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Blue Technology, Groovy Dreams, Alone Autumn, Breezy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -21624,7 +21624,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21634,7 +21634,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12800,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -21660,7 +21660,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21670,7 +21670,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12810,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -21732,7 +21732,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21742,7 +21742,7 @@
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12830,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -21768,7 +21768,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21778,7 +21778,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12840,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -21804,7 +21804,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21814,7 +21814,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12850,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -21876,7 +21876,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -21886,7 +21886,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12870,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21948,7 +21948,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -21958,7 +21958,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12890,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -22020,7 +22020,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22030,7 +22030,7 @@
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12910,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22200,7 +22200,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -22210,7 +22210,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12960,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Teen Technology, Electric View, Teen Hood, Alone View, Teen Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -22308,7 +22308,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -22318,7 +22318,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12990,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -22344,7 +22344,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -22354,7 +22354,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13000,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -22416,7 +22416,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -22426,7 +22426,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13020,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -22488,7 +22488,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -22498,7 +22498,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13040,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -22524,7 +22524,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22534,7 +22534,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13050,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -22560,7 +22560,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -22570,7 +22570,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13060,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View, Teen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -22596,7 +22596,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -22606,7 +22606,7 @@
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13070,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -22668,7 +22668,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22678,7 +22678,7 @@
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13090,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -22884,7 +22884,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22894,7 +22894,7 @@
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13150,
-  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -22920,7 +22920,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -22930,7 +22930,7 @@
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13160,
-  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Alone Hood, Teen Revolution, Blue Technology, Groovy Harmonies, Electric Dreams, Blue Guide, Chill Technology, Teen Autumn, Groovy Dirt, Heroic View, Electric Technology, Heroic Harmonies, Heroic Autumn, Chill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -22992,7 +22992,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology, Dynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -23002,7 +23002,7 @@
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13180,
-  "message" : "Liked songs:\n\t[Paint It Black, Begin Again]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Breezy View, Blue Autumn, Groovy Funeral , Bad Autumn, Teen Hood, Groovy Technology, Alone Technology, Groovy Dreams, Heroic Funeral , Groovy View, Heroic Harmonies, Electric Revolution, Groovy Guide, Electric Technology, Dynamic Dirt, Chill Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -23064,7 +23064,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -23074,7 +23074,7 @@
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13200,
-  "message" : "Liked songs:\n\t[Don't, Money Trees]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Bad Revolution, Groovy Harmonies, Teen Harmonies, Chill Autumn, Alone Hood, Chill Dirt, Breezy Harmonies, Electric Technology, Electric Revolution, Electric Dreams, Bad Harmonies, Groovy Guide, Dynamic Autumn, Chill Hood, Breezy Autumn, Alone Guide, Blue Dirt, Groovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -23136,7 +23136,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View, Teen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -23146,7 +23146,7 @@
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13220,
-  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Electric Funeral , Bad Dirt, Bad Dreams, Dynamic Dirt, Blue Guide, Teen Hood, Groovy Revolution, Heroic Technology, Heroic Hood, Bad Funeral , Groovy Hood, Chill Dirt, Electric Revolution, Alone Dirt, Teen Guide, Bad Hood, Heroic View, Teen Technology, Chill Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -23208,7 +23208,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Groovy Hood, Teen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
@@ -23218,7 +23218,7 @@
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13240,
-  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
+  "message" : "Albums:\n\t[Groovy Hood, Teen Guide, Alone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",

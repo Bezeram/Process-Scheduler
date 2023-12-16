@@ -161,7 +161,7 @@ Starting audit...
 [ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\Host.java:72:50: Parameter description should be final. [FinalParameters]
 [ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\User.java:21:8: Unused import - org.checkerframework.checker.units.qual.A. [UnusedImports]
 [ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\User.java:61:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\User.java:161:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\User.java:138:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\User.java:532:9: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\UserFactory.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] E:\My Files\Dev\IntelliJ Java\etapa2-POO\etapa2\.\src\app\user\UserFactory.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
