@@ -7,10 +7,7 @@ import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
-import app.page.ArtistPage;
-import app.page.HomePage;
-import app.page.HostPage;
-import app.page.Page;
+import app.page.*;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
@@ -86,7 +83,8 @@ public class User extends LibraryEntry {
      * @return true
      */
     public boolean isSafeToDelete() {
-        return true;
+	    return player.getCurrentAudioFile() == null
+                && (currentPage instanceof HomePage || currentPage instanceof LikedContentPage);
     }
 
     /**
@@ -162,8 +160,6 @@ public class User extends LibraryEntry {
             return "You can't load an empty audio collection!";
         }
 
-
-
         player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
         searchBar.clearSelection();
 
@@ -205,24 +201,12 @@ public class User extends LibraryEntry {
         String repeatStatus = "";
 
         switch (repeatMode) {
-            case NO_REPEAT -> {
-                repeatStatus = "no repeat";
-            }
-            case REPEAT_ONCE -> {
-                repeatStatus = "repeat once";
-            }
-            case REPEAT_ALL -> {
-                repeatStatus = "repeat all";
-            }
-            case REPEAT_INFINITE -> {
-                repeatStatus = "repeat infinite";
-            }
-            case REPEAT_CURRENT_SONG -> {
-                repeatStatus = "repeat current song";
-            }
-            default -> {
-                repeatStatus = "";
-            }
+            case NO_REPEAT -> repeatStatus = "no repeat";
+            case REPEAT_ONCE -> repeatStatus = "repeat once";
+            case REPEAT_ALL -> repeatStatus = "repeat all";
+            case REPEAT_INFINITE -> repeatStatus = "repeat infinite";
+            case REPEAT_CURRENT_SONG -> repeatStatus = "repeat current song";
+            default -> repeatStatus = "";
         }
 
         return "Repeat mode changed to %s.".formatted(repeatStatus);
@@ -239,8 +223,8 @@ public class User extends LibraryEntry {
             return "Please load a source before using the shuffle function.";
         }
 
-        if (!player.getType().equals("playlist")) {
-            return "The loaded source is not a playlist.";
+        if (!player.getType().equals("playlist") && !player.getType().equals("album")) {
+            return "The loaded source is not a playlist or an album.";
         }
 
         player.shuffle(seed);

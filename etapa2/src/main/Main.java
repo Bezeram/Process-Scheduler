@@ -83,7 +83,7 @@ public final class Main {
         Admin.setPodcasts(library.getPodcasts());
 
         /*
-        * test03_etapa2.json
+        * test14_etapa2_delete_cases.json
         *
         * */
 
@@ -114,6 +114,7 @@ public final class Main {
                 case "showPreferredSongs" -> outputs.add(CommandRunner.showLikedSongs(command));
                 case "getPreferredGenre" -> outputs.add(CommandRunner.getPreferredGenre(command));
                 case "getTop5Songs" -> outputs.add(CommandRunner.getTop5Songs(command));
+                case "getTop5Albums" -> outputs.add(CommandRunner.getTop5Albums(command));
                 case "getTop5Playlists" -> outputs.add(CommandRunner.getTop5Playlists(command));
                 case "changePage" -> outputs.add(CommandRunner.changePage(command)); // tre sa fie online
                 case "addUser" -> outputs.add(CommandRunner.addUser(command));
@@ -125,7 +126,14 @@ public final class Main {
                 case "addAlbum" -> outputs.add(CommandRunner.addAlbum(command));
                 case "addEvent" -> outputs.add(CommandRunner.addEvent(command));
                 case "addMerch" -> outputs.add(CommandRunner.addMerch(command));
+                case "addPodcast" -> outputs.add(CommandRunner.addPodcast(command));
+                case "addAnnouncement" -> outputs.add(CommandRunner.addAnnouncement(command));
+                case "removeAnnouncement" -> outputs.add(CommandRunner.removeAnnouncement(command));
+                case "removeAlbum" -> outputs.add(CommandRunner.removeAlbum(command));
+                case "removePodcast" -> outputs.add(CommandRunner.removePodcast(command));
+                case "removeEvent" -> outputs.add(CommandRunner.removeEvent(command));
                 case "showAlbums" -> outputs.add(CommandRunner.showAlbums(command));
+                case "showPodcasts" -> outputs.add(CommandRunner.showPodcasts(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

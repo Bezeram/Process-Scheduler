@@ -15,14 +15,6 @@ public class Album extends AudioCollection {
 		this.songs = songs;
 	}
 
-	public boolean containsByName(final String name) {
-		return getName().toLowerCase().startsWith(name.toLowerCase());
-	}
-
-	public boolean matchesAlbum(final String album) {
-		return false;
-	}
-
 	@Override
 	public int getNumberOfTracks() {
 		return songs.size();
@@ -31,5 +23,18 @@ public class Album extends AudioCollection {
 	@Override
 	public AudioFile getTrackByIndex(int index) {
 		return songs.get(index);
+	}
+
+	/**
+	 * Get the likes of an album
+	 *
+	 * @param object input album
+	 * @return likes count
+	 */
+	public static int getLikes(Object object) {
+		int likes = 0;
+		for (Song song : ((Album) object).getSongs())
+			likes += song.getLikes();
+		return likes;
 	}
 }

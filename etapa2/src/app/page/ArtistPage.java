@@ -27,11 +27,11 @@ public class ArtistPage implements Page {
 
 		out.append("]\n\nMerch:\n\t[");
 		for (Artist.Merch merch : artist.getMerch()) {
-			out.append(merch.getName());
+			out.append(merch.name());
 			out.append(" - ");
-			out.append(merch.getPrice());
+			out.append(merch.price());
 			out.append(":\n\t");
-			out.append(merch.getDescription());
+			out.append(merch.description());
 			out.append(", ");
 		}
 		if (!artist.getMerch().isEmpty()) {
@@ -41,11 +41,11 @@ public class ArtistPage implements Page {
 
 		out.append("]\n\nEvents:\n\t[");
 		for (Artist.Event event : artist.getEvents()) {
-			out.append(event.getName());
+			out.append(event.name());
 			out.append(" - ");
-			out.append(event.getDate());
+			out.append(event.date());
 			out.append(":\n\t");
-			out.append(event.getDescription());
+			out.append(event.description());
 			out.append(", ");
 		}
 		if (!artist.getEvents().isEmpty()) {

@@ -23,7 +23,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 1035,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -55,17 +55,17 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 1191,
-  "message" : "emily30 is offline."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 1192,
-  "message" : "emily30 is offline."
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 2000,
-  "message" : "emily30 is offline."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "select",
   "user" : "rhythmicrider58",
@@ -86,7 +86,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 2135,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "load",
   "user" : "rhythmicrider58",
@@ -113,7 +113,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 2290,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "like",
   "user" : "rhythmicrider58",
@@ -123,22 +123,22 @@
   "command" : "repeat",
   "user" : "rhythmicrider58",
   "timestamp" : 2480,
-  "message" : "rhythmicrider58 is offline."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "forward",
   "user" : "rhythmicrider58",
   "timestamp" : 2555,
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "changePage",
   "user" : "rhythmicrider58",
   "timestamp" : 2755,
-  "message" : "rhythmicrider58 accessed LikedContentsuccessfully."
+  "message" : "rhythmicrider58 accessed LikedContent successfully."
 }, {
   "command" : "deleteUser",
   "timestamp" : 2760,
   "user" : "melodymaster",
-  "message" : "melodymaster was successfully deleted."
+  "message" : "melodymaster can't be deleted."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -186,7 +186,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3200,
-  "message" : "emily30 is offline."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -194,7 +194,7 @@
   "stats" : {
     "name" : "99 Problems",
     "remainedTime" : 209,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -218,7 +218,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3270,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "follow",
   "user" : "rhythmicrider58",
@@ -233,12 +233,12 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3295,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 3300,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - emily30]"
+  "message" : "Liked songs:\n\t[Synth Symphony - melodymaster]\n\nFollowed playlists:\n\t[My favourite songs - emily30]"
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -254,17 +254,17 @@
   "command" : "changePage",
   "user" : "rhythmicrider58",
   "timestamp" : 3320,
-  "message" : "rhythmicrider58 accessed Homesuccessfully."
+  "message" : "rhythmicrider58 accessed Home successfully."
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3335,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "deleteUser",
   "timestamp" : 3335,
   "user" : "melodymaster",
-  "message" : "The username melodymaster doesn't exist."
+  "message" : "melodymaster was successfully deleted."
 }, {
   "command" : "search",
   "user" : "rhythmicrider58",
@@ -302,7 +302,7 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 3435,
-  "message" : "emily30 is offline."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "showPlaylists",
   "user" : "emily30",
@@ -332,5 +332,5 @@
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 7000,
-  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]"
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[]"
 } ]

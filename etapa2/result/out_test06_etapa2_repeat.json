@@ -50,7 +50,7 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 31,
-  "message" : "alice22 is offline."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "createPlaylist",
   "user" : "bob35",
@@ -63,7 +63,7 @@
   "stats" : {
     "name" : "Night Pulse",
     "remainedTime" : 228,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -74,7 +74,7 @@
   "stats" : {
     "name" : "Night Pulse",
     "remainedTime" : 3,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Once",
     "shuffle" : false,
     "paused" : false
   }
@@ -82,12 +82,12 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 258,
-  "message" : "alice22 is offline."
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 258,
-  "message" : "alice22 is offline."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -130,6 +130,11 @@
   "user" : "alice22",
   "timestamp" : 1009,
   "message" : "Successfully added to playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 1010,
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -266,7 +271,7 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 1036,
-  "message" : "alice22 is offline."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -274,7 +279,7 @@
   "stats" : {
     "name" : "Vibrant Echoes",
     "remainedTime" : 241,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -301,7 +306,7 @@
   "stats" : {
     "name" : "Dream Chaser",
     "remainedTime" : 7,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
@@ -314,7 +319,7 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 2100,
-  "message" : "alice22 is offline."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -322,7 +327,7 @@
   "stats" : {
     "name" : "Dream Chaser",
     "remainedTime" : 5,
-    "repeat" : "No Repeat",
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
@@ -330,17 +335,17 @@
   "command" : "changePage",
   "user" : "carol19",
   "timestamp" : 2102,
-  "message" : "carol19 accessed LikedContentsuccessfully."
+  "message" : "carol19 accessed LikedContent successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 2334,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Dream Chaser",
+    "remainedTime" : 182,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "follow",
@@ -351,17 +356,17 @@
   "command" : "repeat",
   "user" : "alice22",
   "timestamp" : 2335,
-  "message" : "alice22 is offline."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 2336,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Dream Chaser",
+    "remainedTime" : 180,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "printCurrentPage",
