@@ -62,6 +62,7 @@ public final class Song extends AudioFile {
         }
         return true;
     }
+
     @Override
     public boolean matchesLyrics(final String lyricFilter) {
         return this.getLyrics().toLowerCase().contains(lyricFilter.toLowerCase());

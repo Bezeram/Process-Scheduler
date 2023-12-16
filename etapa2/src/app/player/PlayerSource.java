@@ -2,7 +2,6 @@ package app.player;
 
 import app.audio.Collections.AudioCollection;
 import app.audio.Files.AudioFile;
-import app.audio.Files.Song;
 import app.utils.Enums;
 import lombok.Getter;
 import lombok.Setter;
@@ -22,8 +21,7 @@ public class PlayerSource {
     private AudioCollection audioCollection;
     /**
      * -- SETTER --
-     *  Sets audio file.
-     *
+     * Sets audio file.
      */
     @Setter
     @Getter
@@ -107,8 +105,8 @@ public class PlayerSource {
             }
         } else {
             if (repeatMode == Enums.RepeatMode.REPEAT_ONCE
-                || repeatMode == Enums.RepeatMode.REPEAT_CURRENT_SONG
-                || repeatMode == Enums.RepeatMode.REPEAT_INFINITE) {
+                    || repeatMode == Enums.RepeatMode.REPEAT_CURRENT_SONG
+                    || repeatMode == Enums.RepeatMode.REPEAT_INFINITE) {
                 remainedDuration = audioFile.getDuration();
             } else if (repeatMode == Enums.RepeatMode.NO_REPEAT) {
                 if (shuffle) {
@@ -153,22 +151,22 @@ public class PlayerSource {
      * @param shuffle the shuffle
      */
     public void setPrevAudioFile(final boolean shuffle) {
-	    if (type != Enums.PlayerSourceType.LIBRARY) {
-		    if (remainedDuration == audioFile.getDuration()) {
-			    if (shuffle) {
-				    if (indexShuffled > 0) {
-					    indexShuffled--;
-				    }
-				    index = indices.get(indexShuffled);
-			    } else {
-				    if (index > 0) {
-					    index--;
-				    }
-			    }
-			    updateAudioFile();
-		    }
-	    }
-	    remainedDuration = audioFile.getDuration();
+        if (type != Enums.PlayerSourceType.LIBRARY) {
+            if (remainedDuration == audioFile.getDuration()) {
+                if (shuffle) {
+                    if (indexShuffled > 0) {
+                        indexShuffled--;
+                    }
+                    index = indices.get(indexShuffled);
+                } else {
+                    if (index > 0) {
+                        index--;
+                    }
+                }
+                updateAudioFile();
+            }
+        }
+        remainedDuration = audioFile.getDuration();
     }
 
     /**

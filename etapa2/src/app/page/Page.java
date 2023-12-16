@@ -1,5 +1,10 @@
 package app.page;
 
 public interface Page {
-	String print();
+    /**
+     * All pages shall have to print
+     *
+     * @return final string
+     */
+    String print();
 }

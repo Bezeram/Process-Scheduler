@@ -20,7 +20,7 @@ public class PlaylistOutput {
             songs.add(playlist.getSongs().get(i).getName());
         }
         this.visibility = playlist.getVisibility() == Enums.Visibility.PRIVATE
-                                                      ? "private" : "public";
+                ? "private" : "public";
         this.followers = playlist.getFollowers();
     }
 

@@ -8,7 +8,19 @@ import lombok.Getter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static app.searchBar.FilterUtils.*;
+import static app.searchBar.FilterUtils.filterByAlbum;
+import static app.searchBar.FilterUtils.filterByDescription;
+import static app.searchBar.FilterUtils.filterByTags;
+import static app.searchBar.FilterUtils.filterByName;
+import static app.searchBar.FilterUtils.filterByArtist;
+import static app.searchBar.FilterUtils.filterByHost;
+import static app.searchBar.FilterUtils.filterByGenre;
+import static app.searchBar.FilterUtils.filterByFollowers;
+import static app.searchBar.FilterUtils.filterByLyrics;
+import static app.searchBar.FilterUtils.filterByReleaseYear;
+import static app.searchBar.FilterUtils.filterByPlaylistVisibility;
+import static app.searchBar.FilterUtils.filterByOwner;
+
 
 /**
  * The type Search bar.
@@ -150,7 +162,7 @@ public final class SearchBar {
                 }
 
                 break;
-	        default:
+            default:
                 entries = new ArrayList<>();
         }
 
@@ -175,7 +187,7 @@ public final class SearchBar {
 
             return null;
         } else {
-            lastSelected =  this.results.get(itemNumber - 1);
+            lastSelected = this.results.get(itemNumber - 1);
             results.clear();
 
             return lastSelected;

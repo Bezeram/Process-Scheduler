@@ -7,34 +7,36 @@ import lombok.Getter;
 import java.util.ArrayList;
 
 @Getter
-public class Album extends AudioCollection {
-	private final ArrayList<Song> songs;
+public final class Album extends AudioCollection {
+    private final ArrayList<Song> songs;
 
-	public Album(final String name, final String owner, final ArrayList<Song> songs) {
-		super(name, owner);
-		this.songs = songs;
-	}
+    public Album(final String name, final String owner, final ArrayList<Song> songs) {
+        super(name, owner);
+        this.songs = songs;
+    }
 
-	@Override
-	public int getNumberOfTracks() {
-		return songs.size();
-	}
+    @Override
+    public int getNumberOfTracks() {
+        return songs.size();
+    }
 
-	@Override
-	public AudioFile getTrackByIndex(int index) {
-		return songs.get(index);
-	}
+    @Override
+    public AudioFile getTrackByIndex(final int index) {
+        return songs.get(index);
+    }
 
-	/**
-	 * Get the likes of an album
-	 *
-	 * @param object input album
-	 * @return likes count
-	 */
-	public static int getLikes(Object object) {
-		int likes = 0;
-		for (Song song : ((Album) object).getSongs())
-			likes += song.getLikes();
-		return likes;
-	}
+    /**
+     * Get the likes of an album
+     *
+     * @param object input album
+     * @return likes count
+     */
+    public static int getLikes(final Object object) {
+        int likes = 0;
+        for (Song song : ((Album) object).getSongs()) {
+            likes += song.getLikes();
+        }
+
+        return likes;
+    }
 }

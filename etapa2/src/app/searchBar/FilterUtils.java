@@ -3,7 +3,6 @@ package app.searchBar;
 import app.audio.LibraryEntry;
 import app.user.Artist;
 import app.user.Host;
-import app.user.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,12 +69,12 @@ public final class FilterUtils {
     /**
      * Filter by name list.
      *
-     * @param entries the entries
+     * @param entries     the entries
      * @param description the description
      * @return the list
      */
     public static List<LibraryEntry> filterByDescription(final List<LibraryEntry> entries,
-                                                  final String description) {
+                                                         final String description) {
         List<LibraryEntry> result = new ArrayList<>();
         for (LibraryEntry entry : entries) {
             if (entry.matchesName(description)) {

@@ -38,7 +38,6 @@ public abstract class AudioCollection extends LibraryEntry {
     public abstract AudioFile getTrackByIndex(int index);
 
     /**
-     *
      * @param user the user
      * @return if the user is the owner
      */

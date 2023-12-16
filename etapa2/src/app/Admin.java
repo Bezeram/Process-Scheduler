@@ -55,7 +55,6 @@ public final class Admin {
     }
 
 
-
     /**
      * Deletes user and all of its data. Assumes it exists
      *
@@ -65,7 +64,7 @@ public final class Admin {
         User user = getUser(inputUsername);
 
         if (user instanceof Artist artist) {
-            for (int i = 0; i < songs.size(); ) {
+            for (int i = 0; i < songs.size();) {
                 Album album = artist.getAlbumByName(songs.get(i).getAlbum());
                 if (album == null || !album.getOwner().equals(artist.getName())) {
                     i++;
@@ -89,21 +88,20 @@ public final class Admin {
                 }
             }
 
-            for (int i = 0; i < albums.size(); ) {
+            for (int i = 0; i < albums.size();) {
                 if (albums.get(i).getOwner().equals(artist.getName())) {
                     albums.remove(i);
-                }
-                else
+                } else {
                     i++;
+                }
             }
-        }
-        else if (user instanceof Host host) {
-            for (int i = 0; i < podcasts.size(); ) {
+        } else if (user instanceof Host host) {
+            for (int i = 0; i < podcasts.size();) {
                 if (podcasts.get(i).getOwner().equals(host.getName())) {
                     podcasts.remove(i);
-                }
-                else
+                } else {
                     i++;
+                }
             }
         }
 
@@ -141,20 +139,20 @@ public final class Admin {
      *
      * @param albumName the album name
      */
-    public static void removeAlbum(String albumName) {
+    public static void removeAlbum(final String albumName) {
         for (int i = 0; i < albums.size(); i++) {
             if (albums.get(i).getName().equalsIgnoreCase(albumName)) {
                 // Remove associated songs
                 for (Song albumSong : albums.get(i).getSongs()) {
-                    for (int j = 0; j < songs.size(); ) {
+                    for (int j = 0; j < songs.size();) {
                         String albumSongName = albumSong.getName();
                         String songName = songs.get(j).getName();
 
                         if (albumSongName.equalsIgnoreCase(songName)) {
                             songs.remove(i);
-                        }
-                        else
+                        } else {
                             i++;
+                        }
                     }
                 }
 
@@ -170,12 +168,13 @@ public final class Admin {
      *
      * @param podcastName the podcast name
      */
-    public static void removePodcast(String podcastName) {
-        for (int i = 0; i < podcasts.size(); i++)
+    public static void removePodcast(final String podcastName) {
+        for (int i = 0; i < podcasts.size(); i++) {
             if (podcasts.get(i).getName().equalsIgnoreCase(podcastName)) {
                 podcasts.remove(i);
                 return;
             }
+        }
     }
 
     /**
@@ -205,8 +204,8 @@ public final class Admin {
             List<Episode> episodes = new ArrayList<>();
             for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
                 episodes.add(new Episode(episodeInput.getName(),
-                                         episodeInput.getDuration(),
-                                         episodeInput.getDescription()));
+                        episodeInput.getDuration(),
+                        episodeInput.getDescription()));
             }
             podcasts.add(new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes));
         }
@@ -223,25 +222,22 @@ public final class Admin {
 
     /**
      * Adds songs.
-     *
      */
-    public static void addSongs(ArrayList<Song> songs) {
-        Admin.songs.addAll(songs);
+    public static void addSongs(final ArrayList<Song> songsInput) {
+        songs.addAll(songsInput);
     }
 
     /**
      * Adds an album.
-     *
      */
-    public static void addAlbum(Album album) {
+    public static void addAlbum(final Album album) {
         Admin.albums.add(album);
     }
 
     /**
      * Adds a podcast.
-     *
      */
-    public static void addPodcast(Podcast podcast) {
+    public static void addPodcast(final Podcast podcast) {
         Admin.podcasts.add(podcast);
     }
 
@@ -272,7 +268,9 @@ public final class Admin {
      *
      * @return the albums
      */
-    public static List<Album> getAlbums() { return new ArrayList<>(albums); }
+    public static List<Album> getAlbums() {
+        return new ArrayList<>(albums);
+    }
 
     /**
      * Gets user.
@@ -378,7 +376,6 @@ public final class Admin {
         podcasts = new ArrayList<>();
         timestamp = 0;
     }
-
 
 
 }

@@ -30,6 +30,7 @@ public final class Main {
     /**
      * DO NOT MODIFY MAIN METHOD
      * Call the checker
+     *
      * @param args from command line
      * @throws IOException in case of exceptions to reading / writing
      */
@@ -71,11 +72,11 @@ public final class Main {
                               final String filePath2) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         LibraryInput library = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
-                                                               + "library/library.json"),
-                                                               LibraryInput.class);
+                        + "library/library.json"),
+                LibraryInput.class);
         CommandInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
-                                                                  + filePath1),
-                                                                  CommandInput[].class);
+                        + filePath1),
+                CommandInput[].class);
         ArrayNode outputs = objectMapper.createArrayNode();
 
         Admin.setUsers(library.getUsers());
@@ -83,9 +84,9 @@ public final class Main {
         Admin.setPodcasts(library.getPodcasts());
 
         /*
-        * test14_etapa2_delete_cases.json
-        *
-        * */
+         * test14_etapa2_delete_cases.json
+         *
+         * */
 
         for (CommandInput command : commands) {
             Admin.updateTimestamp(command.getTimestamp());
@@ -105,8 +106,7 @@ public final class Main {
                 case "next" -> outputs.add(CommandRunner.next(command));
                 case "prev" -> outputs.add(CommandRunner.prev(command));
                 case "createPlaylist" -> outputs.add(CommandRunner.createPlaylist(command));
-                case "addRemoveInPlaylist" ->
-                        outputs.add(CommandRunner.addRemoveInPlaylist(command));
+                case "addRemoveInPlaylist" -> outputs.add(CommandRunner.addRemoveInPlaylist(command));
                 case "switchVisibility" -> outputs.add(CommandRunner.switchVisibility(command));
                 case "showPlaylists" -> outputs.add(CommandRunner.showPlaylists(command));
                 case "follow" -> outputs.add(CommandRunner.follow(command)); // pana aici verifica daca este online

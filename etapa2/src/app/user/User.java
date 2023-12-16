@@ -7,7 +7,11 @@ import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
-import app.page.*;
+import app.page.Page;
+import app.page.HomePage;
+import app.page.LikedContentPage;
+import app.page.ArtistPage;
+import app.page.HostPage;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
@@ -15,7 +19,6 @@ import app.searchBar.SearchBar;
 import app.utils.Enums;
 import lombok.Getter;
 import lombok.Setter;
-import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,8 +58,8 @@ public class User extends LibraryEntry {
      * @param city     the city
      */
     public User(final String username, final int age, final String city) {
-	    super(username);
-	    this.username = username;
+        super(username);
+        this.username = username;
         this.age = age;
         this.city = city;
         playlists = new ArrayList<>();
@@ -71,7 +74,6 @@ public class User extends LibraryEntry {
 
     /**
      * Toggles the connection status from online to offline or vice versa
-     *
      */
     public void switchConnectionStatus() {
         online = !online;
@@ -83,7 +85,7 @@ public class User extends LibraryEntry {
      * @return true
      */
     public boolean isSafeToDelete() {
-	    return player.getCurrentAudioFile() == null
+        return player.getCurrentAudioFile() == null
                 && (currentPage instanceof HomePage || currentPage instanceof LikedContentPage);
     }
 
@@ -133,8 +135,7 @@ public class User extends LibraryEntry {
                     this.setCurrentPage(new ArtistPage(artist));
                     return "Successfully selected %s's page.".formatted(selected.getName());
                 }
-            }
-            else if (user instanceof Host host) {
+            } else if (user instanceof Host host) {
                 if (user.getName().equalsIgnoreCase(selected.getName())) {
                     this.setCurrentPage(new HostPage(host));
                     return "Successfully selected %s's page.".formatted(selected.getName());
@@ -156,7 +157,7 @@ public class User extends LibraryEntry {
         }
 
         if (!searchBar.getLastSearchType().equals("song")
-            && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
+                && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
         }
 
@@ -198,7 +199,7 @@ public class User extends LibraryEntry {
         }
 
         Enums.RepeatMode repeatMode = player.repeat();
-        String repeatStatus = "";
+        String repeatStatus;
 
         switch (repeatMode) {
             case NO_REPEAT -> repeatStatus = "no repeat";
