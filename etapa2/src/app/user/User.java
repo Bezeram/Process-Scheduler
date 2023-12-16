@@ -1,13 +1,15 @@
 package app.user;
 
+import app.Admin;
 import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
+import app.page.ArtistPage;
 import app.page.HomePage;
-import app.page.LikedContentPage;
+import app.page.HostPage;
 import app.page.Page;
 import app.player.Player;
 import app.player.PlayerStats;
@@ -16,6 +18,7 @@ import app.searchBar.SearchBar;
 import app.utils.Enums;
 import lombok.Getter;
 import lombok.Setter;
+import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +26,7 @@ import java.util.List;
 /**
  * The type User.
  */
-public class User {
+public class User extends LibraryEntry {
     @Getter
     protected String username;
     @Getter
@@ -43,6 +46,9 @@ public class User {
     protected final Player player;
     protected final SearchBar searchBar;
     protected boolean lastSearched;
+    @Getter
+    @Setter
+    protected boolean online;
 
     /**
      * Instantiates a new User.
@@ -52,7 +58,8 @@ public class User {
      * @param city     the city
      */
     public User(final String username, final int age, final String city) {
-        this.username = username;
+	    super(username);
+	    this.username = username;
         this.age = age;
         this.city = city;
         playlists = new ArrayList<>();
@@ -62,6 +69,24 @@ public class User {
         searchBar = new SearchBar(username);
         lastSearched = false;
         currentPage = new HomePage(this);
+        online = true;
+    }
+
+    /**
+     * Toggles the connection status from online to offline or vice versa
+     *
+     */
+    public void switchConnectionStatus() {
+        online = !online;
+    }
+
+    /**
+     * Checks if the user can be deleted
+     *
+     * @return true
+     */
+    public boolean isSafeToDelete() {
+        return true;
     }
 
     /**
@@ -104,6 +129,14 @@ public class User {
             return "The selected ID is too high.";
         }
 
+        for (User user : Admin.getUsers()) {
+            if (user instanceof Artist || user instanceof Host) {
+                if (user.getName().equalsIgnoreCase(selected.getName())) {
+                    return "Successfully selected %s's page.".formatted(selected.getName());
+                }
+            }
+        }
+
         return "Successfully selected %s.".formatted(selected.getName());
     }
 
@@ -120,6 +153,15 @@ public class User {
         if (!searchBar.getLastSearchType().equals("song")
             && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
+        }
+
+        if (searchBar.getLastSearchType().equals("artist")) {
+            Artist artist = (Artist) searchBar.getLastSelected();
+            this.setCurrentPage(new ArtistPage(artist));
+        }
+        else if (searchBar.getLastSearchType().equals("host")) {
+            Host host = (Host) searchBar.getLastSelected();
+            this.setCurrentPage(new HostPage(host));
         }
 
         player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
@@ -487,6 +529,7 @@ public class User {
      * @param time the time
      */
     public void simulateTime(final int time) {
-        player.simulatePlayer(time);
+        if (online)
+            player.simulatePlayer(time);
     }
 }

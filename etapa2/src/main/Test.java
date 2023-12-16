@@ -29,10 +29,10 @@ public final class Test {
             Arrays.sort(inputDir);
 
             Scanner scanner = new Scanner(System.in);
-            String fileName = "input/" + scanner.next();
+            String fileName = scanner.next();
             for (File file : inputDir) {
                 if (file.getName().equalsIgnoreCase(fileName)) {
-                    Main.action(file.getAbsolutePath(), CheckerConstants.OUT_FILE);
+                    Main.action(fileName, CheckerConstants.OUT_FILE);
                     break;
                 }
             }

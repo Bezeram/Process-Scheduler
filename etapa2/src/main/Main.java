@@ -82,6 +82,11 @@ public final class Main {
         Admin.setSongs(library.getSongs());
         Admin.setPodcasts(library.getPodcasts());
 
+        /*
+        * test04_etapa2.json
+        *
+        * */
+
         for (CommandInput command : commands) {
             Admin.updateTimestamp(command.getTimestamp());
 
@@ -104,14 +109,23 @@ public final class Main {
                         outputs.add(CommandRunner.addRemoveInPlaylist(command));
                 case "switchVisibility" -> outputs.add(CommandRunner.switchVisibility(command));
                 case "showPlaylists" -> outputs.add(CommandRunner.showPlaylists(command));
-                case "follow" -> outputs.add(CommandRunner.follow(command));
+                case "follow" -> outputs.add(CommandRunner.follow(command)); // pana aici verifica daca este online
                 case "status" -> outputs.add(CommandRunner.status(command));
                 case "showPreferredSongs" -> outputs.add(CommandRunner.showLikedSongs(command));
                 case "getPreferredGenre" -> outputs.add(CommandRunner.getPreferredGenre(command));
                 case "getTop5Songs" -> outputs.add(CommandRunner.getTop5Songs(command));
                 case "getTop5Playlists" -> outputs.add(CommandRunner.getTop5Playlists(command));
-                case "changePage" -> outputs.add(CommandRunner.changePage(command));
-                case "printCurrentPage" -> outputs.add(CommandRunner.changePage(command));
+                case "changePage" -> outputs.add(CommandRunner.changePage(command)); // tre sa fie online
+                case "addUser" -> outputs.add(CommandRunner.addUser(command));
+                case "printCurrentPage" -> outputs.add(CommandRunner.printCurrentPage(command)); // tre sa fie online
+                case "deleteUser" -> outputs.add(CommandRunner.deleteUser(command));
+                case "getOnlineUsers" -> outputs.add(CommandRunner.getOnlineUsers(command));
+                case "getAllUsers" -> outputs.add(CommandRunner.getAllUsers(command));
+                case "switchConnectionStatus" -> outputs.add(CommandRunner.switchConnectionStatus(command));
+                case "addAlbum" -> outputs.add(CommandRunner.addAlbum(command));
+                case "addEvent" -> outputs.add(CommandRunner.addEvent(command));
+                case "addMerch" -> outputs.add(CommandRunner.addMerch(command));
+                case "showAlbums" -> outputs.add(CommandRunner.showAlbums(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

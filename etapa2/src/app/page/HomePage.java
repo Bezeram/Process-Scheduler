@@ -22,13 +22,21 @@ public class HomePage implements Page {
 			out.append(song.getName());
 			out.append(", ");
 		}
-		out.deleteCharAt(out.length() - 1); // delete last comma
+		if (!user.getLikedSongs().isEmpty()) {
+			out.deleteCharAt(out.length() - 1); // delete last space
+			out.deleteCharAt(out.length() - 1); // delete last comma
+		}
+
 		out.append("]\n\nFollowed playlists:\n\t[");
 		for (Playlist playlist : user.getFollowedPlaylists()) {
 			out.append(playlist.getName());
 			out.append(", ");
 		}
-		out.deleteCharAt(out.length() - 1); // delete last comma
+		if (!user.getFollowedPlaylists().isEmpty()) {
+			out.deleteCharAt(out.length() - 1); // delete last space
+			out.deleteCharAt(out.length() - 1); // delete last comma
+		}
+
 		out.append("]");
 
 		return out.toString();

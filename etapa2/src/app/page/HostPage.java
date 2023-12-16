@@ -3,7 +3,9 @@ package app.page;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.user.Host;
+import lombok.Getter;
 
+@Getter
 public class HostPage implements Page {
 	private final Host host;
 
@@ -25,13 +27,17 @@ public class HostPage implements Page {
 				out.append(episode.getDescription());
 				out.append(", ");
 			}
-			out.deleteCharAt(out.length() - 1); // delete last comma
-			out.deleteCharAt(out.length() - 1); // delete last space
+			if (!podcast.getEpisodes().isEmpty()) {
+				out.deleteCharAt(out.length() - 1); // delete last comma
+				out.deleteCharAt(out.length() - 1); // delete last space
+			}
 
 			out.append("], ");
 		}
-		out.deleteCharAt(out.length() - 1); // delete last space
-		out.deleteCharAt(out.length() - 1); // delete last space
+		if (!host.getPodcasts().isEmpty()) {
+			out.deleteCharAt(out.length() - 1); // delete last space
+			out.deleteCharAt(out.length() - 1); // delete last space
+		}
 
 		out.append("]\n\nAnnouncements:\n\t[");
 		for (Host.Announcement announcement : host.getAnnouncements()) {
@@ -40,8 +46,10 @@ public class HostPage implements Page {
 			out.append(announcement.getDescription());
 			out.append("\n, ");
 		}
-		out.deleteCharAt(out.length() - 1); // delete last space
-		out.deleteCharAt(out.length() - 1); // delete last comma
+		if (!host.getAnnouncements().isEmpty()) {
+			out.deleteCharAt(out.length() - 1); // delete last space
+			out.deleteCharAt(out.length() - 1); // delete last comma
+		}
 
 		return out.toString();
 	}

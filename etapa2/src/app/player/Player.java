@@ -5,6 +5,7 @@ import app.audio.Files.AudioFile;
 import app.audio.LibraryEntry;
 import app.utils.Enums;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +16,7 @@ import java.util.List;
 public final class Player {
     private Enums.RepeatMode repeatMode;
     private boolean shuffle;
+    @Setter
     private boolean paused;
     private PlayerSource source;
     @Getter
@@ -74,6 +76,8 @@ public final class Player {
             return new PlayerSource(Enums.PlayerSourceType.PLAYLIST, (AudioCollection) entry);
         } else if ("podcast".equals(type)) {
             return createPodcastSource((AudioCollection) entry, bookmarks);
+        } else if ("album".equals(type)) {
+            return new PlayerSource(Enums.PlayerSourceType.ALBUM, (AudioCollection) entry);
         }
 
         return null;
@@ -235,6 +239,18 @@ public final class Player {
             return null;
         }
         return source.getAudioFile();
+    }
+
+    /**
+     * Gets current audio collection.
+     *
+     * @return the current audio collection
+     */
+    public AudioCollection getCurrentAudioCollection() {
+        if (source == null) {
+            return null;
+        }
+        return source.getAudioCollection();
     }
 
     /**

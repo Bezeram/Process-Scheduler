@@ -1,16 +1,21 @@
 package app;
 
+import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
+import app.user.Artist;
+import app.user.Host;
 import app.user.User;
 import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import fileio.input.UserInput;
+import lombok.Getter;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -18,9 +23,11 @@ import java.util.List;
  * The type Admin.
  */
 public final class Admin {
+    @Getter
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
+    private static List<Album> albums = new ArrayList<>();
     private static int timestamp = 0;
     private static final int LIMIT = 5;
 
@@ -40,19 +47,119 @@ public final class Admin {
     }
 
     /**
-     * Sets songs.
+     * Adds user. Assumes user is new
+     *
+     * @param user the input user
+     */
+    public static void addUser(final User user) {
+        users.add(user);
+    }
+
+    /**
+     * Deletes user and all of its data. Assumes it exists
+     *
+     * @param inputUsername the user's name
+     */
+    public static void deleteUser(String inputUsername) {
+        User user = getUser(inputUsername);
+
+        if (user instanceof Artist artist) {
+            for (int i = 0; i < songs.size(); ) {
+                Album album = artist.getAlbumByName(songs.get(i).getAlbum());
+                if (album == null || !album.getOwner().equals(artist.getName())) {
+                    i++;
+                    continue;
+                }
+
+                songs.remove(i);
+            }
+
+            // For every user, delete every mention of an invalid liked song
+            for (User iterUser : getUsers()) {
+                ArrayList<Song> favSongs = iterUser.getLikedSongs();
+                for (int i = 0; i < favSongs.size(); i++) {
+                    Album album = artist.getAlbumByName(favSongs.get(i).getAlbum());
+                    if (album == null || !album.getOwner().equals(artist.getName())) {
+                        i++;
+                        continue;
+                    }
+
+                    favSongs.remove(i);
+                }
+            }
+
+            for (int i = 0; i < albums.size(); ) {
+                if (albums.get(i).getOwner().equals(artist.getName())) {
+                    albums.remove(i);
+                }
+                else
+                    i++;
+            }
+        }
+        else if (user instanceof Host host) {
+            for (int i = 0; i < podcasts.size(); ) {
+                if (podcasts.get(i).getOwner().equals(host.getName())) {
+                    podcasts.remove(i);
+                }
+                else
+                    i++;
+            }
+
+            // For every user, delete every mention of an invalid followed playlist
+            for (User iterUser : getUsers()) {
+                ArrayList<Playlist> followedPlaylists = iterUser.getFollowedPlaylists();
+                for (int i = 0; i < followedPlaylists.size(); i++) {
+                    Playlist playlist = followedPlaylists.get(i);
+                    if (playlist == null || !playlist.getOwner().equals(host.getName())) {
+                        i++;
+                        continue;
+                    }
+
+                    followedPlaylists.remove(i);
+                }
+            }
+        }
+
+        for (int i = 0; i < users.size(); i++) {
+            if (users.get(i).getName().equals(user.getName())) {
+                users.remove(i);
+                break;
+            }
+        }
+    }
+
+    /**
+     * Sets songs and albums
      *
      * @param songInputList the song input list
      */
     public static void setSongs(final List<SongInput> songInputList) {
         songs = new ArrayList<>();
+        albums = new ArrayList<>();
         for (SongInput songInput : songInputList) {
-            songs.add(new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
+            Song song = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
                     songInput.getTags(), songInput.getLyrics(), songInput.getGenre(),
-                    songInput.getReleaseYear(), songInput.getArtist()));
+                    songInput.getReleaseYear(), songInput.getArtist());
+            songs.add(song);
+
+            boolean exists = false;
+            Album match = null;
+            for (Album album : albums)
+                if (album.matchesName(song.getAlbum())) {
+                    match = album;
+                    exists = true;
+                    break;
+                }
+            // If album does not exist then create it and add the current song
+            // Otherwise add the song to the album
+            if (!exists) {
+                albums.add(new Album(song.getAlbum(), song.getArtist(), new ArrayList<>(Collections.singleton(song))));
+            }
+            else {
+                match.getSongs().add(song);
+            }
         }
     }
-
 
     /**
      * Sets podcasts.
@@ -82,6 +189,22 @@ public final class Admin {
     }
 
     /**
+     * Adds songs.
+     *
+     */
+    public static void addSongs(ArrayList<Song> songs) {
+        Admin.songs.addAll(songs);
+    }
+
+    /**
+     * Adds an album.
+     *
+     */
+    public static void addAlbum(Album album) {
+        Admin.albums.add(album);
+    }
+
+    /**
      * Gets podcasts.
      *
      * @return the podcasts
@@ -102,6 +225,13 @@ public final class Admin {
         }
         return playlists;
     }
+
+    /**
+     * Gets albums
+     *
+     * @return the albums
+     */
+    public static List<Album> getAlbums() { return new ArrayList<>(albums); }
 
     /**
      * Gets user.
@@ -186,6 +316,7 @@ public final class Admin {
         podcasts = new ArrayList<>();
         timestamp = 0;
     }
+
 
 
 }

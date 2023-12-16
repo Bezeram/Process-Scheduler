@@ -1,6 +1,9 @@
 package app.searchBar;
 
 import app.audio.LibraryEntry;
+import app.user.Artist;
+import app.user.Host;
+import app.user.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +28,57 @@ public final class FilterUtils {
         List<LibraryEntry> result = new ArrayList<>();
         for (LibraryEntry entry : entries) {
             if (entry.matchesName(name)) {
+                result.add(entry);
+            }
+        }
+        return result;
+    }
+
+    /**
+     * Filter users list by who is artist
+     *
+     * @param entries the entries
+     * @return the list
+     */
+    public static List<LibraryEntry> filterByArtist(final List<LibraryEntry> entries) {
+        List<LibraryEntry> result = new ArrayList<>();
+        for (LibraryEntry entry : entries) {
+            if (entry instanceof Artist) {
+                result.add(entry);
+            }
+        }
+        return result;
+    }
+
+    /**
+     * Filter users list by who is artist
+     *
+     * @param entries the entries
+     * @return the list
+     */
+    public static List<LibraryEntry> filterByHost(final List<LibraryEntry> entries) {
+        List<LibraryEntry> result = new ArrayList<>();
+        for (LibraryEntry entry : entries) {
+            if (entry instanceof Host) {
+                result.add(entry);
+            }
+        }
+        return result;
+    }
+
+
+    /**
+     * Filter by name list.
+     *
+     * @param entries the entries
+     * @param description the description
+     * @return the list
+     */
+    public static List<LibraryEntry> filterByDescription(final List<LibraryEntry> entries,
+                                                  final String description) {
+        List<LibraryEntry> result = new ArrayList<>();
+        for (LibraryEntry entry : entries) {
+            if (entry.matchesName(description)) {
                 result.add(entry);
             }
         }
